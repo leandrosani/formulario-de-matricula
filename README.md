@@ -6,7 +6,7 @@ desenvolvido para praticar HTML, CSS, FLEX, GRIX e Bastante pratica no uso de In
 
 ##Tecnologias
 HTML
-CSS
+CSS - Media Query, FLEX, GRID.
 
 Segue link para acessar:
 
