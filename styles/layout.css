@@ -49,3 +49,55 @@ aside {
     }
   }
 }
+
+@media screen and (max-width: 430px) {
+
+  body {
+    overflow: visible;
+  }
+
+  main {
+    padding: 24px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  aside {
+    padding: 24px;
+    text-align: center;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  .actions-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 24px;
+
+    & button {
+      height: 2rem;
+      max-width: 19.5rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    button.btn-secondary {
+      margin-left: 0;
+    }
+    
+  }
+
+  
+
+}

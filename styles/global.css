@@ -50,3 +50,11 @@ img {
 .flex-2 {
   flex: 2;
 }
+
+
+@media screen and (max-width: 430px) {
+
+  .desktop-only {
+    display: none;
+  }
+}
